@@ -8,9 +8,9 @@ namespace ConsoleApp5
 {
     internal class Logic
     {
-        public int Power(int i) 
+        public int Power(int a, int p) 
         {
-            return i * i;
+            return (int)Math.Pow(a,p);
         }
     }
 }
