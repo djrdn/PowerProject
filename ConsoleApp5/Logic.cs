@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp5
 {
-    internal class Logic
+    public class Logic
     {
-        public int Power(int a, int p) 
+        public static int Power(int a, int p)
         {
             return (int)Math.Pow(a,p);
         }
